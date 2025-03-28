@@ -1,0 +1,322 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap", Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+
+ul{
+list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*superinfopg*/
+.superinfo-bg{
+    background: #000000;
+    color: aliceblue;
+}
+
+.superinfo{
+max-width: 960px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+    margin: 0 10px 10px 10px;
+}
+.superinfo a{
+    color:aliceblue
+}
+/*menubg*/
+.menu-bg{
+    background:#dd0606;
+}
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+.menu-logo a{
+    font-size:2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    background: #8b91b3;
+
+}
+
+
+/*introdução*/
+
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 5px;
+    
+}
+
+/*sobre*/
+
+
+.Sobre{
+    border-top:2px solid #108bff ;
+    border-bottom:2px solid #0095f1 ;
+    max-width: 968px;
+    margin: 0 auto;
+    padding: 60px 0;
+    flex-wrap: wrap;
+    
+}
+
+.sobre-info{
+flex: 2 1 300px;
+margin: 0 10px;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: rgb(32, 31, 31);
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+.Marvel-item{
+max-width: 960px;
+margin: 60px auto;
+}
+
+.Marvel-item h2{
+font-size: 3em;
+margin:0 10px 60px 10px;
+}
+
+.Marvel-item p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: rgb(32, 31, 31);
+}
+
+.Marvel-item-img{
+    border-top:2px solid #108bff ;
+    border-bottom:2px solid #137fe4 ;
+  flex: 1 1 160px;
+  margin: 2px;
+  padding: 2px 200px;
+  border-top: #0011ab;
+  max-width: 968px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+.Marvel-item-img{
+max-width: 968px;
+    margin: 0 auto;
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+
+.Wolverine{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.Wolverine h2{
+    font-size: 3em;
+    margin:0 10px 60px 10px; 
+}
+
+.Wolverine p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: rgb(32, 31, 31);
+}
+.Wolverine-item-img{
+
+    flex: 1 1 160px;
+    margin: 2px;
+    padding: 2px 200px;
+    border-top: #0019a8;
+    max-width: 968px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.Wolverine-item-img{
+  
+    max-width: 968px;
+        margin: 0 auto;
+        padding: 60px 0;
+        flex-wrap: wrap;
+        border-top: #0019a8;
+    }
+    
+    
+
+    .Deadpool-item{
+        max-width: 960px;
+        margin: 60px auto;
+    }
+    
+    .Deadpool-item h2{
+        font-size: 3em;
+        margin:0 10px 60px 10px; 
+    }
+    
+    .Deadpool-item p{
+        font-size: 1.25em;
+        line-height: 1.4;
+        margin-bottom: 10px;
+        color: rgb(32, 31, 31);
+    }
+    .Deadpool-item-img{
+        flex: 1 1 160px;
+        margin: 2px;
+        padding: 2px 200px;
+        border-top: #0019a8;
+        max-width: 968px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+    }
+    .Deadpool-item-img{
+        border-top:2px solid #108bff ;
+        border-bottom:2px solid #137fe4 ;
+        max-width: 968px;
+            margin: 0 auto;
+            padding: 60px 0;
+            flex-wrap: wrap;
+        }
+
+        /*news later*/
+        .newsletter {
+        background: #2b2a2a;
+        padding: 60px calc( (100%-960px ) / 2 );
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .newsletter-info{
+            flex:1 1 260px;
+            margin: 0 10px;
+        }
+
+        .newsletter-info h1{
+            font-size: 3em;
+            color: #c0ff03;
+        }
+
+        .newsletter-info p{
+            font-size: 1.25em;
+            font-style: italic;
+            max-width: 230px;
+            color:#ffffff;
+            margin-bottom: 18px;
+        }
+        
+        .newsletter-form{
+            flex: 2 1 260px;
+            margin: 0 10px;
+            align-items: center;
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+        .newsletter-form input{
+            flex: 3 1 200px;
+            font-size: 1.25em;
+            color: #7c7c7c;
+            font-style: italic;
+            font-family:"https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet";
+            border: 4px soli #2c70ff;
+            background: transparent;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 0px;
+        }
+
+        .newsletter-form button{
+            flex: 1 200px;
+            font-family:"https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" ;
+            font-size:2.25em ;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #2c70ff;
+            color: aliceblue;
+            margin: 0px;
+            cursor: pointer;
+            border: 0px;
+            padding: 15px 10px;
+
+        }
+
+        @media (max-widht:600px){
+            .newsletter-form button {
+                font-size: 1.5em;
+            }
+        }
+        .footer{
+        display: flex;
+        background: #ffffff;
+        height: 200px;
+        align-items: center;
+        }
+
+        .footer p{
+            flex: 1;
+            text-align: center;
+            font-size: 2.25em;
+            color: #000000;
+        }
